@@ -65,6 +65,7 @@ describe 'Artist' do
       artist_1 = Artist.find_or_create_by_name("Michael Jackson")
       artist_2 = Artist.find_or_create_by_name("Michael Jackson")
       expect(artist_1).to eq(artist_2)
+      expect(Artist.all.count).to eq(1)
     end
 
     it 'Creates new instance of Artist if none exist' do

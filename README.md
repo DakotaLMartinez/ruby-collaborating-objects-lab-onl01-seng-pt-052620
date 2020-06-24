@@ -55,8 +55,8 @@ This class method should return all `Artist` instances.
 
 #### `Artist#add_song`
 
-This instance method receives an instance of a `Song` and associates it belongs to
-_this_ `Artist` instance.
+This instance method receives an instance of a `Song` and associates it with
+_this_ `Artist` instance. (The song belongs to this artist)
 
 #### `Artist#songs`
 
